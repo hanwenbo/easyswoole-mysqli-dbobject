@@ -1,5 +1,5 @@
 {
-  "name": "ezswoole/dbObject",
+  "name": "ezswoole/dbobject",
   "type": "library",
   "description": "easyswoole mysqli dbObject",
   "keywords": [
@@ -26,7 +26,7 @@
   },
   "autoload": {
     "psr-4": {
-      "ezswoole\\dbObject\\": "src/"
+      "ezswoole\\dbobject\\": "src/"
     }
   },
   "repositories": {
