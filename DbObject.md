@@ -1,3 +1,5 @@
+# 安装
+composer require ezswoole/dbobject
 # 示例
 假如你的项目的tp的风格，可以继承EasySwoole\Mysqli\DbObject来自定义
 ```php
