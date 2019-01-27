@@ -8,7 +8,7 @@
  *
  */
 
-namespace ezswoole\dbObject;
+namespace ezswoole\dbobject;
 
 use EasySwoole\Mysqli\Mysqli;
 use EasySwoole\Spl\SplString;
