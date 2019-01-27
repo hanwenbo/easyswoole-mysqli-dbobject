@@ -8,9 +8,11 @@
  *
  */
 
-namespace EasySwoole\Mysqli;
+namespace ezswoole\dbObject;
 
+use EasySwoole\Mysqli\Mysqli;
 use EasySwoole\Spl\SplString;
+use EasySwoole\Mysqli\Exceptions;
 
 /**
  * Mysqli Model wrapper
@@ -241,6 +243,7 @@ abstract class DbObject
 		$this->toSkip = [];
 		return $res;
 	}
+
 	/**
 	 * 保存或更新对象
 	 * @param null $data
@@ -297,7 +300,7 @@ abstract class DbObject
 
 	/**
 	 * 通过主键获取对象
-	 * @param string $id   主键
+	 * @param string $id     主键
 	 * @param null   $fields 要获取的字段的数组或昏迷分隔列表
 	 * @return DbObject|\EasySwoole\Mysqli\Mysqli|mixed|null
 	 * @throws Exceptions\ConnectFail
